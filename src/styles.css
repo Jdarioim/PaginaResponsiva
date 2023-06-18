@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('assets/img/fondo1.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 0%;
+}
+
+.box h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+
+/* Estilos para pantallas pequeñas (hasta 768px) */
+
+@media (max-width: 768px) {
+    /* Agrega aquí tus estilos para pantallas pequeñas */
+}
+
+
+/* Estilos para pantallas medianas (de 769px a 992px) */
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Agrega aquí tus estilos para pantallas medianas */
+}
+
+
+/* Estilos para pantallas grandes (a partir de 993px) */
+
+@media (min-width: 993px) {
+    /* Agrega aquí tus estilos para pantallas grandes */
+}
